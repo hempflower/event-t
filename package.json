@@ -1,0 +1,33 @@
+{
+  "name": "event-t",
+  "version": "1.0.2",
+  "description": "A Vscode like event emitter.",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "typescript",
+    "vscode",
+    "event-emitter"
+  ],
+  "repository": {
+    "url": "https://github.com/hempflower/event-t"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "@wopjs/disposable": "^0.1.5"
+  }
+}
